@@ -42,7 +42,7 @@ The file [`@transaction.ts`](@transaction.ts) was written to address these issue
 }
 ```
 
-1. Copy the file [`@transaction.ts`](@transaction.ts) to your project and adjust the import paths as needed.
+1. Copy [`context.ts`](/context.ts), [`decorators.ts`](/decorators.ts) and [`@transaction.ts`](@transaction.ts) to your project and adjust the import paths as needed.
 2. In your `db.ts` file (where your Drizzle database is defined), change the name of the global DB object to `baseDB`, and create a new `db` object imported from [`@transaction.ts`](@transaction.ts):
 
 ```ts
